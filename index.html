@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,17 @@
   <title>email validation</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-  
+  <div class="hero">
+    <div class="input-group">
+      <label id="email-label">EMAIL</label>
+      <input type="email" spellcheck="false" id="email-field" onkeyup="validateEmail()">
+      <span id="email-error"></span>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
 </body>
+
 </html>
